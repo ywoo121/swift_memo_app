@@ -14,6 +14,7 @@
 		263DAF52270CFC8300DCE0E5 /* ywMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 263DAF50270CFC8300DCE0E5 /* ywMemo.xcdatamodeld */; };
 		263DAF54270CFC8400DCE0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF53270CFC8400DCE0E5 /* Assets.xcassets */; };
 		263DAF57270CFC8400DCE0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF55270CFC8400DCE0E5 /* LaunchScreen.storyboard */; };
+		263DAF5F270D017F00DCE0E5 /* study.md in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF5E270D017F00DCE0E5 /* study.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		263DAF53270CFC8400DCE0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263DAF56270CFC8400DCE0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263DAF58270CFC8400DCE0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263DAF5E270D017F00DCE0E5 /* study.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = study.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				263DAF55270CFC8400DCE0E5 /* LaunchScreen.storyboard */,
 				263DAF58270CFC8400DCE0E5 /* Info.plist */,
 				263DAF50270CFC8300DCE0E5 /* ywMemo.xcdatamodeld */,
+				263DAF5E270D017F00DCE0E5 /* study.md */,
 			);
 			path = ywMemo;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263DAF5F270D017F00DCE0E5 /* study.md in Resources */,
 				263DAF57270CFC8400DCE0E5 /* LaunchScreen.storyboard in Resources */,
 				263DAF54270CFC8400DCE0E5 /* Assets.xcassets in Resources */,
 				263DAF4F270CFC8300DCE0E5 /* Main.storyboard in Resources */,
