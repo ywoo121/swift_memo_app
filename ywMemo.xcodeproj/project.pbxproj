@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		263DAF48270CFC8300DCE0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DAF47270CFC8300DCE0E5 /* AppDelegate.swift */; };
 		263DAF4A270CFC8300DCE0E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DAF49270CFC8300DCE0E5 /* SceneDelegate.swift */; };
-		263DAF4C270CFC8300DCE0E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DAF4B270CFC8300DCE0E5 /* ViewController.swift */; };
 		263DAF4F270CFC8300DCE0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF4D270CFC8300DCE0E5 /* Main.storyboard */; };
 		263DAF52270CFC8300DCE0E5 /* ywMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 263DAF50270CFC8300DCE0E5 /* ywMemo.xcdatamodeld */; };
 		263DAF54270CFC8400DCE0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF53270CFC8400DCE0E5 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		263DAF44270CFC8300DCE0E5 /* ywMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ywMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263DAF47270CFC8300DCE0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263DAF49270CFC8300DCE0E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		263DAF4B270CFC8300DCE0E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		263DAF4E270CFC8300DCE0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		263DAF51270CFC8300DCE0E5 /* ywMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ywMemo.xcdatamodel; sourceTree = "<group>"; };
 		263DAF53270CFC8400DCE0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			children = (
 				263DAF47270CFC8300DCE0E5 /* AppDelegate.swift */,
 				263DAF49270CFC8300DCE0E5 /* SceneDelegate.swift */,
-				263DAF4B270CFC8300DCE0E5 /* ViewController.swift */,
 				263DAF4D270CFC8300DCE0E5 /* Main.storyboard */,
 				263DAF53270CFC8400DCE0E5 /* Assets.xcassets */,
 				263DAF55270CFC8400DCE0E5 /* LaunchScreen.storyboard */,
@@ -145,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263DAF4C270CFC8300DCE0E5 /* ViewController.swift in Sources */,
 				263DAF52270CFC8300DCE0E5 /* ywMemo.xcdatamodeld in Sources */,
 				263DAF48270CFC8300DCE0E5 /* AppDelegate.swift in Sources */,
 				263DAF4A270CFC8300DCE0E5 /* SceneDelegate.swift in Sources */,
