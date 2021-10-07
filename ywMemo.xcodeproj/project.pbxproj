@@ -14,6 +14,7 @@
 		263DAF54270CFC8400DCE0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF53270CFC8400DCE0E5 /* Assets.xcassets */; };
 		263DAF57270CFC8400DCE0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF55270CFC8400DCE0E5 /* LaunchScreen.storyboard */; };
 		263DAF5F270D017F00DCE0E5 /* study.md in Resources */ = {isa = PBXBuildFile; fileRef = 263DAF5E270D017F00DCE0E5 /* study.md */; };
+		26781A5F270F134D00438104 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26781A5E270F134D00438104 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		263DAF56270CFC8400DCE0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263DAF58270CFC8400DCE0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		263DAF5E270D017F00DCE0E5 /* study.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = study.md; sourceTree = "<group>"; };
+		26781A5E270F134D00438104 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		263DAF46270CFC8300DCE0E5 /* ywMemo */ = {
 			isa = PBXGroup;
 			children = (
+				26781A5D270F133A00438104 /* Model */,
 				263DAF47270CFC8300DCE0E5 /* AppDelegate.swift */,
 				263DAF49270CFC8300DCE0E5 /* SceneDelegate.swift */,
 				263DAF4D270CFC8300DCE0E5 /* Main.storyboard */,
@@ -68,6 +71,14 @@
 				263DAF5E270D017F00DCE0E5 /* study.md */,
 			);
 			path = ywMemo;
+			sourceTree = "<group>";
+		};
+		26781A5D270F133A00438104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26781A5E270F134D00438104 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 				263DAF52270CFC8300DCE0E5 /* ywMemo.xcdatamodeld in Sources */,
 				263DAF48270CFC8300DCE0E5 /* AppDelegate.swift in Sources */,
 				263DAF4A270CFC8300DCE0E5 /* SceneDelegate.swift in Sources */,
+				26781A5F270F134D00438104 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
